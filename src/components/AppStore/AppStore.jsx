@@ -7,10 +7,10 @@ const AppStore = () => {
     <div className="bg-gray-100 py-14 margin-b">
 
       <div className="max-w-xl mx-auto container mb-2 sm:mb-4">
-        <h1 className="text-xl sm:text-4xl font-bold text-center text-gray-700">Burger King is available for Android and IOS</h1>
+        <h1 data-aos='zoom-in' className="text-xl sm:text-4xl font-bold text-center text-gray-700">Burger King is available for Android and IOS</h1>
       </div>
 
-        <div className="flex justify-center items-center ">
+        <div data-aos='fade-up' className="flex justify-center items-center ">
 
           <a href="#">
           <img src={PlayStoreImg} alt="play store" className="max-w-[100px] sm:max-w-[200px]"  />
