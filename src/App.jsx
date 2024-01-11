@@ -8,6 +8,7 @@ import Hero from './components/Hero/Hero'
 import Services from './components/Services/Services'
 import Banner from './components/Banner/Banner'
 import AppStore from './components/AppStore/AppStore'
+import Testimonials from './components/Testimonials/Testimonials'
 import Footer from './components/Footer/Footer'
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
       <Services />
       <Banner />
       <AppStore />
+      <Testimonials />
       <Footer />
     </>
   )
