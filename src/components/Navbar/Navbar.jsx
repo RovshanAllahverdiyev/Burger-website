@@ -13,13 +13,13 @@ const Menu = [
   },
   {
     id: 3,
-    name: 'Menu',
-    link: '#menu'
+    name: 'About',
+    link: '#about'
   },
   {
     id: 4,
-    name: 'About',
-    link: '#about'
+    name: 'Menu',
+    link: '#menu'
   },
 ]
 
