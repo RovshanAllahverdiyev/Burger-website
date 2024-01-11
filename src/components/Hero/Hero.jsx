@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 import BurgerImg1 from "../../assets/burger/burger1.png";
 import BurgerImg2 from "../../assets/burger/burger2.png";
 import BurgerImg3 from "../../assets/burger/burger3.png";
@@ -33,7 +34,7 @@ const Hero = () => {
 
   return (
     <section
-      className=" bg-gray-100 margin-b"
+      className=" bg-gray-100 "
       style={bgImage}
       id="home"
     >
@@ -42,7 +43,7 @@ const Hero = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2">
             {/* text content section */}
             <div className="flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1">
-              <h1 className="text-5xl sm:text-6xl lg:text-8xl font-bold ">
+              <h1 data-aos='zoom-out' className="text-5xl sm:text-6xl lg:text-8xl font-bold ">
                 Welcome to
                 <span
                   className="bg-clip-text text-transparent bg-gradient-to-b from-primary to-secondary drop-shadow-[4px_4px_0_rgba(255, 255, 255,1)]"
@@ -55,12 +56,12 @@ const Hero = () => {
                 </span>
                 King
               </h1>
-              <p className="text-sm">
+              <p data-aos='fade-up' className="text-sm">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Necessitatibus, minus optio quo dolorum sequi vero?
               </p>
 
-              <div>
+              <div data-aos='fade-up' data-aos-delay='300'>
                 <button className="bg-gradient-to-r from-primary to-white py-2 px-4 rounded-full border-2 border-white text-black hover:scale-105 duration-300 font-bold">Order Now</button>
               </div>
             </div>
@@ -69,13 +70,13 @@ const Hero = () => {
               
               <div className="order-1 sm:order-2 min-h-[450px] relative flex justify-center items-center">
 
-                <div>
+                <div  data-aos="fade-left" data-aos-delay="300">
                 <img src={imageId} alt="" className="max-w-[430px] hover:scale-105 w-full mx-auto drop-shadow-[-6px_20px_15px_rgba(0,0,0,1)] cursor-pointer"/>
                 </div>
 
                 <div className="absolute flex lg:flex-col lg:top-1/2 lg:-translate-y-1/2 lg:py-2 lg:-right-10 bottom-[-30px] justify-center gap-4 bg-white/30 rounded-full">
                   {ImageList.map((item) => (
-                    <div key={item.id}>
+                    <div key={item.id} data-aos="zoom-in" data-aos-offset="0">
                       <img 
                         src={item.img} alt="burger img"
                         className="max-w-[80px] h-[80px] object-contain inline-block hover:scale-105 duration-300 cursor-pointer"

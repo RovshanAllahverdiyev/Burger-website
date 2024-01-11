@@ -8,8 +8,8 @@ const Menu = [
   },
   {
     id: 2,
-    name: 'About',
-    link: '#about'
+    name: 'Services',
+    link: '#services'
   },
   {
     id: 3,
@@ -18,8 +18,8 @@ const Menu = [
   },
   {
     id: 4,
-    name: 'Services',
-    link: '#services'
+    name: 'About',
+    link: '#about'
   },
 ]
 
@@ -29,7 +29,7 @@ const Navbar = () => {
 
       <div className="container py-3">
 
-        <div className="flex justify-between items-center">
+        <div data-aos='zoom-in' className="flex justify-between items-center">
 
           {/* Navbar Image */}
           <div>
