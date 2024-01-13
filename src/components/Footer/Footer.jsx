@@ -34,7 +34,7 @@ const footerLinks = [
 const Footer = () => {
   return (
     <div className=" bg-gray-100 pt-10 px-10">
-      <div className="container ">
+      <div data-aos='fade-up' data-aos-delay='500' className="container ">
         <div className="grid md:grid-cols-3 sm:gap-16">
           {/* Logo Section */}
           <div className="mb-8">
@@ -72,7 +72,7 @@ const Footer = () => {
               <FaLinkedin className="text-3xl" />
               </a>
             </div>
-            
+
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 gap-4">
