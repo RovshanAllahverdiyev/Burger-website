@@ -18,8 +18,8 @@ const Menu = [
   },
   {
     id: 4,
-    name: 'Menu',
-    link: '#menu'
+    name: 'Contact',
+    link: '#contact'
   },
 ]
 
